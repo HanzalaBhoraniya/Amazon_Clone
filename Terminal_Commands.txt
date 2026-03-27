@@ -1,0 +1,34 @@
+=========================================
+🔥 TERMINAL & GIT CHEAT SHEET 🔥
+=========================================
+
+--- 1. NAVIGATION (Moving Around) ---
+pwd         : Print Working Directory (Where am I right now?)
+ls          : List visible files/folders in the current room
+ls -a       : List ALL files (including hidden ones like .git)
+cd <folder> : Change Directory (Walk into a folder)
+cd ..       : Go backwards up one folder level
+
+--- 2. FILE MANAGEMENT (Create/Delete) ---
+mkdir <name>: Make Directory (Create a new folder)
+touch <name>: Create a new, empty file (e.g., touch index.html)
+rm <name>   : Remove (Delete a file permanently)
+rm -r <name>: Remove Recursive (Delete a folder and everything inside it)
+
+--- 3. MOVING & TELEPORTING ---
+mv <src> <dest> : Move a file OR rename it if kept in the same folder
+cp <src> <dest> : Copy a file 
+unzip <file>    : Extract a .zip file into the current folder
+
+--- 4. HACKER SHORTCUTS ---
+clear (Ctrl+L)  : Wipes the terminal screen clean
+Tab Key         : Auto-completes file/folder names
+Up Arrow Key    : Cycles through previously typed commands
+Insert Key      : Fixes the "fat cursor" (Overwrite Mode) back to normal
+
+--- 5. GIT (Version Control) ---
+git status      : Check what files have been changed/added
+git add .       : Put all new changes on the launchpad (Staging)
+git commit -m "msg" : Save a snapshot with a descriptive message
+git push        : Upload local commits to GitHub
+git branch -m <name> : Rename your current branch
